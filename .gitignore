@@ -1,0 +1,45 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+pip-wheel-metadata/
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# --- Testing / Coverage ---
+.pytest_cache/
+.coverage
+htmlcov/
+.coverage.*
+pytestdebug.log
+
+# --- IDEs ---
+.vscode/
+.idea/
+*.iml
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Logs / Runtime ---
+*.log
+logs/
+tmp/
+temp/
+
+# --- Data / Outputs (keep repo clean) ---
+data/
+datasets/
+outputs/
+runs/
+
+# --- Project-specific private scratchpad ---
+docs/tmp/
+docs/temp/
